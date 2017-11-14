@@ -1,0 +1,32 @@
+<form method="post" action="/create_user">
+
+    <h2>SignUp</h2>
+    <input type="hidden" name="_csrf_token" value="<%= @csrf_token %>">
+    <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" class="form-control" id="fname"  name="fname">
+    </div>
+    <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control" id="lname" name="lname">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" name="email">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <button type="reset" class="btn btn-default btn-block">Reset</button>
+        </div>
+
+        <div class="col-sm-6">
+            <button type="submit" class="btn btn-success btn-block" name="submit">Submit</button>
+        </div>
+    </div>
+
+</form>
