@@ -17,7 +17,9 @@ defmodule TestAppWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    post "/create_user", PageController, :create
+    post "/", PageController, :create
+
+
   end
 
   # Other scopes may use custom stacks.

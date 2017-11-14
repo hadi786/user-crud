@@ -15,7 +15,7 @@ defmodule TestAppWeb.PageController do
     changeset = User.changeset(%User{}, params)
 
     case Repo.insert(changeset) do
-      {:ok, users} ->
+      {:ok, user} ->
         conn
         |> put_flash(:info, "User has been created successfully!")
         |> render("index.html", csrf_token: get_csrf_token())
