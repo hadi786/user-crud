@@ -18,11 +18,18 @@ defmodule TestAppWeb.PageController do
       {:ok, user} ->
         conn
         |> put_flash(:info, "User has been created successfully!")
-        |> render("index.html", csrf_token: get_csrf_token())
+        |> redirect(to: "/")
 
       {:error, changeset} ->
         render(conn, "index.html", changeset: changeset, csrf_token: get_csrf_token())
     end
   end
+
+
+  def list(conn, _params) do
+    render conn, "list.html", users: Repo.all(User)
+  end
+
+
 
 end
