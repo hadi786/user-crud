@@ -1,5 +1,4 @@
 <h2>All Users</h2>
-
 <table class="table table-striped">
     <thead>
         <tr>
@@ -9,21 +8,17 @@
              <th>Action</th>
          </tr>
      </thead>
-
      <tbody>
-
        <%= for user <- @users do %>
          <tr>
               <td> <%= user.fname %></td>
               <td> <%= user.lname %></td>
               <td> <%= user.email %></td>
               <td>
-                  <a href="#"  class="btn btn-default">Edit</a>
+                  <a href="/edit/<%= user.id %>"  class="btn btn-default">Edit</a>
                   <a href="#"  class="btn btn-danger">Delete</a>
               </td>
          </tr>
        <% end %>
-
      </tbody>
-
 </table>

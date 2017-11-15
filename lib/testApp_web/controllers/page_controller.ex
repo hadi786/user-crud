@@ -31,5 +31,30 @@ defmodule TestAppWeb.PageController do
   end
 
 
+  def edit(conn, %{"id" => id}) do
+    case Repo.get(User, id) do
+      user when is_map(user) ->
+        render conn, "edit.html", user: user , csrf_token: get_csrf_token()
+      _ ->
+        redirect conn, to: Router.Helpers.page_path(conn, :show, "unauthorized")
+    end
+  end
+
+  def update(conn, %{"id" => id} = params) do
+
+    user = Repo.get(User, id)
+    changeset = User.changeset(user, params)
+
+    case Repo.update(changeset) do
+      {:ok, user} ->
+        conn
+        |> put_flash(:info, "User has been updated successfully!")
+        |> redirect(to: "/edit/"<>id)
+
+      {:error, changeset} ->
+        render conn, "list.html"
+    end
+
+  end
 
 end

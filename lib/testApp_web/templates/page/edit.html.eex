@@ -1,0 +1,28 @@
+<form method="post" action="/update/<%= @user.id %>">
+
+    <h2>Edit User</h2>
+    <input type="hidden" name="_csrf_token" value="<%= @csrf_token %>">
+    <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" class="form-control" id="fname"  name="fname" value="<%= @user.fname %>" required="required">
+    </div>
+    <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control" id="lname" name="lname" value="<%= @user.lname %>" required="required">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" name="email" value="<%= @user.email %>" required="required">
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <a href="/list" class="btn btn-default btn-block">Back List</a>
+        </div>
+
+        <div class="col-sm-6">
+            <button type="submit" class="btn btn-success btn-block" name="submit">Update</button>
+        </div>
+    </div>
+
+</form>
