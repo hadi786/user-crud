@@ -1,4 +1,10 @@
-<h2>All Users</h2>
+<p class="pull-left" style="font-size:22px;font-weight:bold">All Users</p>
+<div class="pull-right">
+  <a href="/new"  class="btn btn-success">Add New User</a>
+</div>
+
+<div class="clearfix"></div>
+
 <table class="table table-striped">
     <thead>
         <tr>

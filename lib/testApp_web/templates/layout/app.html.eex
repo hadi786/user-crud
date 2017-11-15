@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <%= Phoenix.HTML.Tag.csrf_meta_tag() %>
 
-    <title>Hello TestApp!</title>
+    <title>Phoenix CRUD Example</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 

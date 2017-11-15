@@ -1,6 +1,9 @@
-<form method="post" action="/">
+<form method="post" action="/new">
 
-    <h2>SignUp</h2>
+    <p class="pull-left" style="font-size:22px;font-weight:bold">Add New User</p>
+    <div class="pull-right"> </div>
+    <div class="clearfix"></div>
+
     <input type="hidden" name="_csrf_token" value="<%= @csrf_token %>">
     <div class="form-group">
         <label for="fname">First Name</label>
@@ -21,7 +24,7 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <button type="reset" class="btn btn-default btn-block">Reset</button>
+            <a href="/" class="btn btn-default btn-block">Back List</a>
         </div>
 
         <div class="col-sm-6">

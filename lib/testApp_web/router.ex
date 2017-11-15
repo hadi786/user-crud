@@ -17,8 +17,8 @@ defmodule TestAppWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
-    post "/", PageController, :create
-    get "/list", PageController, :list
+    get "/new", PageController, :new
+    post "/new", PageController, :create
     get "/edit/:id", PageController, :edit
     post "/update/:id", PageController, :update
     get "/delete/:id", PageController, :delete

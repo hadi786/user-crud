@@ -5,6 +5,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/testApp_web/controllers/page_controller.ex" afterPath="$PROJECT_DIR$/lib/testApp_web/controllers/page_controller.ex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/testApp_web/router.ex" afterPath="$PROJECT_DIR$/lib/testApp_web/router.ex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/testApp_web/templates/layout/app.html.eex" afterPath="$PROJECT_DIR$/lib/testApp_web/templates/layout/app.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/testApp_web/templates/page/edit.html.eex" afterPath="$PROJECT_DIR$/lib/testApp_web/templates/page/edit.html.eex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/testApp_web/templates/page/index.html.eex" afterPath="$PROJECT_DIR$/lib/testApp_web/templates/page/index.html.eex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/testApp_web/templates/page/list.html.eex" afterPath="$PROJECT_DIR$/lib/testApp_web/templates/page/list.html.eex" />
     </list>
     <ignored path="testApp.iws" />
@@ -31,7 +34,17 @@
         <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/page/index.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="101" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
+              <caret line="4" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="4" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.html.eex" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/layout/app.html.eex">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -41,27 +54,27 @@
         <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/page/list.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.ex" pinned="false" current-in-tab="false">
+      <file leaf-file-name="router.ex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/testApp_web/router.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.896552">
+            <state vertical-scroll-proportion="0.5646481">
               <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_controller.ex" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page_controller.ex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/testApp_web/controllers/page_controller.ex">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7201309">
-              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+            <state vertical-scroll-proportion="-24.344828">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -71,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/page/edit.html.eex">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="119" selection-start-line="6" selection-start-column="119" selection-end-line="6" selection-end-column="119" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,15 +101,15 @@
         <option value="$PROJECT_DIR$/priv/repo/migrations/20171114101411_create_users.exs" />
         <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/index.html" />
         <option value="$PROJECT_DIR$/deps/plug/lib/plug/csrf_protection.ex" />
-        <option value="$PROJECT_DIR$/lib/testApp_web/templates/layout/app.html.eex" />
         <option value="$PROJECT_DIR$/lib/testApp/accounts/user.ex" />
         <option value="$PROJECT_DIR$/mix.exs" />
         <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/list.html" />
-        <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/edit.html.eex" />
-        <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/index.html.eex" />
-        <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/list.html.eex" />
-        <option value="$PROJECT_DIR$/lib/testApp_web/router.ex" />
         <option value="$PROJECT_DIR$/lib/testApp_web/controllers/page_controller.ex" />
+        <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/list.html.eex" />
+        <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/index.html.eex" />
+        <option value="$PROJECT_DIR$/lib/testApp_web/templates/page/edit.html.eex" />
+        <option value="$PROJECT_DIR$/lib/testApp_web/templates/layout/app.html.eex" />
+        <option value="$PROJECT_DIR$/lib/testApp_web/router.ex" />
       </list>
     </option>
   </component>
@@ -211,10 +224,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -237,44 +246,8 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,14 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/layout/app.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1875">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_build/dev/lib/testApp/ebin/Elixir.TestApp.Repo.beam">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0234375">
@@ -561,18 +526,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/page/edit.html.eex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="119" selection-start-line="6" selection-start-column="119" selection-end-line="6" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/page/list.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -580,23 +537,39 @@
     <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/page/index.html.eex">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="101" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
+          <caret line="4" column="32" selection-start-line="2" selection-start-column="2" selection-end-line="4" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/testApp_web/router.ex">
+    <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/page/edit.html.eex">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.896552">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/testApp_web/controllers/page_controller.ex">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7201309">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+        <state vertical-scroll-proportion="-24.344828">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/testApp_web/templates/layout/app.html.eex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/testApp_web/router.ex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5646481">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
