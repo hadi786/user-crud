@@ -21,6 +21,7 @@ defmodule TestAppWeb.Router do
     get "/list", PageController, :list
     get "/edit/:id", PageController, :edit
     post "/update/:id", PageController, :update
+    get "/delete/:id", PageController, :delete
 
   end
 

@@ -57,4 +57,17 @@ defmodule TestAppWeb.PageController do
 
   end
 
+  def delete(conn, %{"id" => id}) do
+    user = Repo.get(User, id)
+    case user do
+      user when is_map(user) ->
+        Repo.delete(user)
+        conn
+        |> put_flash(:info, "User has been deleted successfully!")
+        |> redirect(to: "/list/")
+      _ ->
+        redirect conn, Router.Helpers.page_path(page: "unauthorized")
+    end
+  end
+
 end
